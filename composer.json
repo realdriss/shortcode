@@ -1,0 +1,20 @@
+{
+    "name": "realdriss/shortcode",
+    "description": "Shortcode package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "RealDriss\\Shortcode\\": "src"
+        }
+    },
+    "require": {
+        "realdriss/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RealDriss\\Shortcode\\Providers\\ShortcodeServiceProvider"
+            ]
+        }
+    }
+}
